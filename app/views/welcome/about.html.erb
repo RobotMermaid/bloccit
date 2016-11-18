@@ -1,2 +1,12 @@
 <h1>Welcome#about</h1>
 <p>Find me in app/views/welcome/about.html.erb</p>
+<p>The current time is: <%= Time.now %></p>
+<% time = Time.now %>
+<% if time= Time.now %>
+Good evening
+<%else%>
+ohai
+<%end%>
+<% 4.times do |index|%>
+<p><%=index%> fish</p>
+<%end%>
