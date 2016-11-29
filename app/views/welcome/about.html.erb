@@ -2,11 +2,13 @@
 <p>Find me in app/views/welcome/about.html.erb</p>
 <p>The current time is: <%= Time.now %></p>
 <% time = Time.now %>
-<% if time= Time.now %>
-Good evening
+<% if time < " 12:00:00 -0800" %>
+O Hai
 <%else%>
-ohai
+Good evening
 <%end%>
-<% 4.times do |index|%>
-<p><%=index%> fish</p>
+<% 2.times do |number|%>
+<p><%=number +1%> fish</p>
 <%end%>
+<p>red fish</p>
+<p>blue fish</p>
