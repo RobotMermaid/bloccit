@@ -17,6 +17,7 @@ end
 #add rspec-rails gem to both environments
 group :development, :test do
   gem 'rspec-rails', '~> 3.0'
+  gem 'shoulda'
 end
 
 
