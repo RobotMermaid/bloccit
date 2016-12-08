@@ -15,7 +15,7 @@
  */
  @import "bootstrap-sprockets";
  @import "bootstrap";
- 
+
  .user-info {
     margin-top: 9px;
   }
@@ -23,3 +23,7 @@
   .nav {
     margin-top: 5px;
   }
+.form-group {
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
