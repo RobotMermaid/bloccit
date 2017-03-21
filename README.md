@@ -1,6 +1,7 @@
 
 ## Bloccit: a Reddit replica to learn the fundamentals of web development and Rails.
-Deployed to Heroku
+Deployed to [Heroku]  (https://peaceful-cove-13276.herokuapp.com/)
+
 Using:
 * Factory Girl in testing 
 * Bootstrap
